@@ -1,15 +1,16 @@
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
-
 [tool.poetry]
 name = "rebecca"
-version = "0.0.1"
+version = "0.1.0"
 description = "Python Algorithm Visualization Library"
-authors = ["yejin park <o0o2211915@gmail.com>"]
+authors = ["98yejin <o0o2211915@gmail.com>"]
+license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.6"
-matplotlib = "^3.4.3"
+python = "^3.11"
+matplotlib = "^3.8.0"
 
-[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
